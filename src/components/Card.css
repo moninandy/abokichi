@@ -1,0 +1,78 @@
+
+body{
+   font-family: "Raleway"; 
+}
+.cls-container{
+    background-color:#eae7e7;
+    text-align: center;
+}
+.Container{
+    
+    display: flex;
+}
+.sec-container{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    background-color: #fff;
+    width:300px;
+    margin:35px 12px;
+    height:390px;
+    border-radius:4px;
+    padding:10px;
+}
+.sec-container p{
+    font-size:0.8rem;
+    font-weight: bold;
+    color:#000;
+
+}
+.review{
+    color:#716e6e;
+    font-weight:500;
+}
+p .price{
+    font-weight: 700;
+}
+p~hr{
+    height:2px;
+    width:290px;
+    color:#6e6d6d;
+}
+.star >hr{
+    height:27px;
+    margin-top:-5px;
+}
+p del{
+    color: #6e6d6d;
+}
+.star{
+    display: flex;
+    justify-content: space-between;
+}
+.video-container{
+    width:1340px;
+    position:relative
+}
+.youtube{
+    padding:10px;
+    width:1340px !important;
+    height:300px;
+}
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 34px;
+    color: white;
+    text-align: center;
+    /* background-color: rgba(0, 0, 0, 0.5); Semi-transparent background */
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  button .card-click{
+    margin: 0 10px;
+    padding: 5px 10px;
+
+  }

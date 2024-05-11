@@ -1,0 +1,17 @@
+.section{
+    margin:20px;
+    padding: 10px;
+
+}
+.sec-inner{
+    background-color:#fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.sec-images p{
+ text-align: center;
+ font-weight: 800;
+}
+

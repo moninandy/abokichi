@@ -1,38 +1,63 @@
-.App {
-  text-align: center;
+.Image-style{
+    width: 470px;
+    height: 300px;
+    opacity: 0.8;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Product-Name{
+    margin-left: 40px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Filter-Name{
+    font-size: larger;
+    align-items: center;
+    margin-left: 40px;
+    padding-left: 20px;
+    width: 100px;
+    height: 40px;
+    border: 0.2px solid rgb(18, 18, 19);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.Card{
+    margin: 30px;
+    display: flex;
+    flex-direction: row ;
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 100;
 }
 
-.App-link {
-  color: #61dafb;
+.AboutUs{
+    margin-left: 100px;
+    display: flex;
+    flex-direction: row ;
+    border-radius: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Padding{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.low-bar{
+    align-items: center;
+    padding: 25px;
+    background-color: rgb(3, 56, 31);
+    color: white;
+    font-size: larger;
+}
+
+.Checkbox{
+    padding-left: 80px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row ;
+    border-radius: 10px;
+}
+
+.Menubar{
+    display: flex;
+    flex-direction: row ;
+    border-radius: 10px;
+    margin-left: 40px;
 }

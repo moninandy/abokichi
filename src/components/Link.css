@@ -1,0 +1,69 @@
+.Link-Container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #0C3322;
+    color:#fff;
+    
+}
+.subscribe{
+    display:flex;
+    margin:5px 30px;
+}
+.inputemail{
+
+    margin: 40px 200px;
+    position: relative;
+}
+.inputemail input{
+   width:400px;
+    height:67%;
+    padding:5px 5px;
+}
+.btn-sub{
+    position: absolute;
+    top:0%;
+    left:60%;
+    right:0;
+    bottom:0%;
+    margin-top:1px;
+    padding:10px 3px;
+    width:40%;
+    height:110%;
+    background-color: black;
+    color:#fff;
+    border:none;
+    font-size: 15px;
+
+}
+.subscribe div{
+    margin: 0 20px;
+}
+.about{
+    display: flex;
+   align-items: flex-start;
+    background-color: #EBFFF6;
+
+}
+.about-link h4{
+    font-size:18px;
+    color: #0C3322;
+    margin-left:100px;
+    margin-top:10px ;
+   
+   
+
+}
+ol li{
+    margin:13px 60px;
+}
+footer{
+    background-color:#EBFFF6 ;
+}
+.foot-link{
+    display:flex;
+    justify-content: flex-end;
+    margin:0 20px;
+    
+   
+}

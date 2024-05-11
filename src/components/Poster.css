@@ -1,0 +1,10 @@
+.poster{
+    display:flex;
+    flex-grow: inherit;
+}
+.poster-img{
+  width:290px;
+  margin-left:20px;
+
+
+}
