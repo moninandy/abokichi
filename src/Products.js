@@ -32,7 +32,7 @@ function Products() {
   
   return (
     <div>         
-    <Box sx={{ flexGrow: 1 }}>
+    <Box className="Box" sx={{ flexGrow: 1 }}>
       <AppBar position="static"  style={{ background: '#000000' }}>
         <Toolbar>
           <IconButton>
@@ -48,20 +48,21 @@ function Products() {
       </AppBar>
     </Box>
       <App />
-      <div>
-        <img  className='Image-style' src='https://www.abokichi.com/cdn/shop/articles/IMG_20240125_103624_1.jpg' alt=''/>
-        <img  className='Image-style' src='https://cdn.shopify.com/s/files/1/0276/6805/4089/products/okazu-miso_400x.jpg' alt='' />
-        <img  className='Image-style' src='https://i.pinimg.com/736x/78/9f/3b/789f3bb2206336040b1f4fa957feb102.jpg' alt='' />  
-        <img  className='Image-style' src='https://cdn11.bigcommerce.com/s-2xe79qkdap/images/stencil/original/image-manager/screen-shot-2022-08-24-at-12.45.09-pm-480x480.jpeg' alt='' />
+      <div className='images'>
+        <div><img  className='Image-style' src='https://www.abokichi.com/cdn/shop/articles/IMG_20240125_103624_1.jpg' alt=''/></div>
+        <div><img  className='Image-style' src='https://cdn.shopify.com/s/files/1/0276/6805/4089/products/okazu-miso_400x.jpg' alt='' /></div>
+        <div><img  className='Image-style' src='https://i.pinimg.com/736x/78/9f/3b/789f3bb2206336040b1f4fa957feb102.jpg' alt='' /> </div>
+        <div><img  className='Image-style' src='https://cdn11.bigcommerce.com/s-2xe79qkdap/images/stencil/original/image-manager/screen-shot-2022-08-24-at-12.45.09-pm-480x480.jpeg' alt='' /></div>
+        <div className='image-overlay'>Product</div>
       </div>
       <div>
         <h1 className='Product-Name'>Products (48)</h1>
         <div className='Menubar'>
         <div className='Filter-Name'><FilterListIcon /><span>Filter</span></div>
-        <div style={{marginLeft:30}}><ListIcon /></div>
+        <div style={{marginLeft:25,marginTop:10}}><ListIcon /></div>
         </div>
       </div>
-
+<hr></hr>
       
 <div className='Checkbox'>
     <div>

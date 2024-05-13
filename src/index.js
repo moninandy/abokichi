@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{useState}from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import Content from './components/Content';
@@ -10,26 +10,25 @@ import Links from './components/Links';
 import { BrowserRouter as Router, Routes } from "react-router-dom";
 import Application from './Application';
 import Products from './Products';
-import App from './App';
 import Navbar from './components/Navbar';
-
+import ProductDescrption from './ProductDescrption';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
+  
+  
   <React.StrictMode>
-    {/* <Router>
-      <Routes path="/Application" elemenet={<Application/>} />
-  </Router> */}
-    {/* <Products /> */}
+  
     <Navbar/>
      <Content/>
     <Seccontent/>
-    <Card/>
+    <Card />
     <Video/>
     <Poster/>
     <Links/> 
-    <Application/>
+   <Application/>
     <Products/>
+   <ProductDescrption/> 
    
   </React.StrictMode>
 );

@@ -67,3 +67,23 @@ footer{
     
    
 }
+@media only screen and (max-width:600px){
+    .Link-Container{
+        display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width:1350px;
+    }
+    .inputemail{
+
+        margin: 40px 390px;
+        position: relative;
+    }
+    .about{
+        display: flex;
+        width:1350px;
+
+    }
+    
+    
+}

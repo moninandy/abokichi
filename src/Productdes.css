@@ -1,0 +1,116 @@
+.Filter{
+    display:flex;
+        
+    }
+    
+    .Product-details{
+        display:flex;
+        justify-content: space-between
+    }
+    .product-images{
+        margin-left:90px;
+        border:1px solid #ccc;
+        height:250px;
+        margin-top: 45px;
+        padding: 10px 10px;
+    }
+    .details{
+        margin-right:270px;
+        margin-top:20px;
+    }
+    .details-review{
+        display:flex;
+        justify-content: space-around;
+    
+    }
+    .details-review hr{
+        
+        margin-left:18px;
+        margin-top: -2px;
+    
+    }
+    .btns{
+        display: flex;
+        gap:40px;
+    }
+    .details-review-number {
+        margin-right:245px;
+        margin-top: 3px;
+    }
+    .share-icons{
+        display: flex;
+        margin-left: 90px;
+        margin-top: 30px;
+    }
+    .wishlist{
+        margin-left:80px;
+        margin-bottom:10px;
+    }
+    .imagesFilter{
+        display:flex;
+        margin-left: 30px;
+        gap:5px;
+    }
+    .imgfilter{
+        border:1px solid #908e8ede;
+        width:50px;
+        padding:5px 10px;
+       
+    
+    }
+    .text{
+        background-color: #EBF2EF;
+        padding:14px 30px;
+    }
+    .Description{
+        display:flex;
+        
+        justify-content:center;
+        margin-top: 10px;
+        gap:40px;
+    }
+    .desc{
+        text-decoration: underline;
+    }
+    
+    .para-text p{
+
+        font-family:Source Sans Pro;
+        font-size:14px;
+        font-weight: 100;
+        
+
+    }
+    @media only screen and (max-width:600px){
+        .Product-details{
+            display:flex;
+            justify-content: space-between;
+            gap:10px;
+            max-width:500px;
+        }
+        .product-images{
+            width:250px;
+            margin-top:70px;
+            padding: 0 40px;
+        }
+        .details{
+            margin-left:180px;
+            padding:10px 20px;
+
+        }
+        .details-review{
+            display: flex;
+            flex-direction: column;
+        }
+         .imagesFilter{
+            margin-top:-60px;
+            padding:0 40px;
+        } 
+        .text{
+            margin-top: 20px;
+            height:400px;
+            width:1300px;
+            padding: 10px 30px;
+        }
+        
+    }

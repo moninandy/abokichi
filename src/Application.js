@@ -23,6 +23,7 @@ import PinterestIcon from '@mui/icons-material/Pinterest';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import { Link } from 'react-router-dom';
 import Links from './components/Links';
+import ListIcon from '@mui/icons-material/List';
 
 function Application() {
   
@@ -44,15 +45,20 @@ function Application() {
       </AppBar>
     </Box>
       <App />
-      <div>
-        <img  className='Image-style' src='https://www.abokichi.com/cdn/shop/articles/IMG_20240125_103624_1.jpg' alt=''/>
-        <img  className='Image-style' src='https://cdn.shopify.com/s/files/1/0276/6805/4089/products/okazu-miso_400x.jpg' alt='' />
-        <img  className='Image-style' src='https://i.pinimg.com/736x/78/9f/3b/789f3bb2206336040b1f4fa957feb102.jpg' alt='' />  
-        <img  className='Image-style' src='https://cdn11.bigcommerce.com/s-2xe79qkdap/images/stencil/original/image-manager/screen-shot-2022-08-24-at-12.45.09-pm-480x480.jpeg' alt='' />
+      <div className='images'>
+        <div><img  className='Image-style' src='https://www.abokichi.com/cdn/shop/articles/IMG_20240125_103624_1.jpg' alt=''/></div>
+        <div><img  className='Image-style' src='https://cdn.shopify.com/s/files/1/0276/6805/4089/products/okazu-miso_400x.jpg' alt='' /></div>
+        <div><img  className='Image-style' src='https://i.pinimg.com/736x/78/9f/3b/789f3bb2206336040b1f4fa957feb102.jpg' alt='' /> </div>
+        <div><img  className='Image-style' src='https://cdn11.bigcommerce.com/s-2xe79qkdap/images/stencil/original/image-manager/screen-shot-2022-08-24-at-12.45.09-pm-480x480.jpeg' alt='' /></div>
+        <div className='image-overlay'>Product</div>
       </div>
-      <div>
+      <div >
         <h1 className='Product-Name'>Products (18)</h1>
-        <div className='Filter-Name'><FilterListIcon /><span>Filter</span></div>
+        <div className='Filter'>
+        <div className='Filter-Name'><FilterListIcon /><span>Filter</span> </div>
+        <div style={{marginLeft:"25px",marginTop:"10px"}}><ListIcon/></div>
+        </div>
+        <hr></hr>
       </div>
 
 

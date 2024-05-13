@@ -1,7 +1,26 @@
+.images{
+  
+    display:flex;
+    position:relative;
+  
+  }
 .Image-style{
-    width: 470px;
-    height: 300px;
-    opacity: 0.8;
+    width: 333px;
+    height: 270px;
+    opacity: 0.7;
+    position: relative;
+    
+}
+.image-overlay{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    padding: 10px;
+    font-size:2.5em;
+    font-weight:400;
+    color:#fff;
+
 }
 
 .Product-Name{
@@ -60,4 +79,18 @@
     flex-direction: row ;
     border-radius: 10px;
     margin-left: 40px;
+}
+
+@media only screen and (max-width:600px) {
+    
+    .low-bar{
+        width:1330px;
+    }
+    .Box{
+        width:1380px;
+    
+    }
+    .Menu{
+        width:1380px;
+    }
 }

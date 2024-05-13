@@ -1,5 +1,6 @@
 import React from 'react'
 import './Card.css'
+import { Link,useNavigation} from 'react-router-dom'
 import icon from '../images/abo.jpg'
 import product1 from '../images/product.1.jpg'
 import product2 from '../images/product 2.jpg'
@@ -7,19 +8,20 @@ import product3 from '../images/product 3.jpg'
 import product4 from '../images/product4.jpg'
 import Typography from '@mui/material/Typography';
 import GradeRoundedIcon from '@mui/icons-material/GradeRounded';
-
+import { Button } from '@mui/material'
 
 
 
 function Card() {
-  //  const navigate = useNavigation();
+  
+  // const navigate = useNavigation();
   //  const handleClick = (e) => {
   //    navigate("/Application");
-  //  };
+  // };
   return (
     <>
 <div className='cls-container'>
-<img src={icon} width="50px"/>
+<img src={icon} width="50px" style={{borderRadius:"50px"}}/>
 <h1>Best Sellers</h1>
 <div className='Container'>
 <div className='sec-container'>
@@ -28,7 +30,8 @@ function Card() {
 <p className='price'>$135.00<del>$ 167.00</del></p>
 <hr></hr>
 <div className='star'>
-<GradeRoundedIcon /> <GradeRoundedIcon /> <GradeRoundedIcon /> <GradeRoundedIcon /> <GradeRoundedIcon />
+  {/* <Button onClick={handleClick}></Button> */}
+ <GradeRoundedIcon /> <GradeRoundedIcon /> <GradeRoundedIcon /> <GradeRoundedIcon /> <GradeRoundedIcon /> 
 <hr></hr>
 <div className='review'>32 reviews</div>
 </div>
